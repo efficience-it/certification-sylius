@@ -1,0 +1,27 @@
+category: Sylius Command and their usage
+entities:
+  -
+    question: 'Which command list the available suites and fixtures ?'
+    answers:
+      - { value: 'sylius:fixtures:list', correct: true }
+      - { value: 'sylius:fixtures-suites:list', correct: false }
+      - { value: 'sylius:suites-fixtures:list', correct: false }
+      - { value: 'doctrine:fixtures:list', correct: false }
+    help: 'https://github.com/Sylius/SyliusFixturesBundle/blob/1.8/docs/commands.md'
+  -
+    question: 'Which command load a suite ?'
+    answers:
+      - { value: 'sylius:fixtures-suites:load', correct: false }
+      - { value: 'sylius:fixtures:load', correct: true }
+      - { value: 'sylius:suites-fixtures:load', correct: false }
+      - { value: 'doctrine:fixtures:load', correct: false }
+    help: 'https://github.com/Sylius/SyliusFixturesBundle/blob/1.8/docs/commands.md'
+  -
+    question: 'Which are the default cron job predefined ?'
+    answers:
+      - { value: 'sylius:remove-expired-carts', correct: true }
+      - { value: 'sylius:cancel-unpaid-orders', correct: true }
+      - { value: 'sylius:refresh-unsold-product', correct: false }
+      - { value: 'sylius:calculate-kpis', correct: false }
+      - { value: 'sylius:export-accounting', correct: false }
+    help: 'https://docs.sylius.com/en/latest/cookbook/deployment/cron-jobs.html'

@@ -38,7 +38,7 @@ Linked to this documentation, this repository is a way for developper to train t
 * Channels configuration
 
 ## CLI
-* Sylius commands and their usage
+* [Sylius commands and their usage](data/cli/sylius_commands_and_usage.yml)
 
 ## Currency
 * How money and currencies are stored in Sylius

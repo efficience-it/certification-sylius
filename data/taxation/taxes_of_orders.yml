@@ -1,0 +1,17 @@
+category: Taxes of Orders
+entities:
+  -
+    question: 'On which address, the Sylius Tax calculation is based by default ?'
+    answers:
+      - { value: 'Shipping Address', correct: false }
+      - { value: 'Billing Address', correct: true }
+      - { value: 'Provider Address', correct: false }
+      - { value: 'Customs Address', correct: false }
+    help: 'https://github.com/Sylius/Sylius/blob/1.13/docs/cookbook/taxation/customize-tax-by-address.rst'
+  -
+    question: 'Is it possible to override the default Billing Address set in the Sylius Tax calcultation, by setiing the shipping address ?'
+    answers:
+      - { value: 'Yes', correct: true }
+      - { value: 'No', correct: false }
+      - { value: 'Depends on the country', correct: false }
+    help: 'https://github.com/Sylius/Sylius/blob/1.13/docs/cookbook/taxation/customize-tax-by-address.rst'
