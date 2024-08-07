@@ -1,0 +1,14 @@
+{
+  "name": "efficience_it/certificationy-sylius",
+  "type": "library",
+  "keywords": ["symfony", "certification", "test", "exam", "sylius"],
+  "description": "A series of questions to prepare for the certification Sylius",
+  "homepage": "https://github.com/efficience-it/certification-sylius",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Louis-Arnaud Catoire",
+      "email": "la.catoire@gmail.com"
+    }
+  ]
+}
