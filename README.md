@@ -1,3 +1,7 @@
+![Linter Status](https://github.com/efficience-it/certification-sylius/actions/workflows/yaml-lint.yaml/badge.svg)
+![Validation Content Status](https://github.com/efficience-it/certification-sylius/actions/workflows/validate-content.yaml/badge.svg)
+
+
 # Certification For Sylius
 
 Linked to this documentation, this repository is a way for developper to train to be certificated for Symfony.
