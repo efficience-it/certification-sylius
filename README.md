@@ -61,7 +61,7 @@ Linked to this documentation, this repository is a way for developper to train t
 * Fixture listeners' configuration, their behavior, and how to extend them
 
 ## General
-* Licenses
+* [Licenses](data/general/licenses.yml)
 * High-level Sylius structure and architecture
 * Purposes of main Sylius components
 * What is preconfigured in Sylius installations in different environments
